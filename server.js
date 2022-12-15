@@ -1,0 +1,13 @@
+import app from './src/app.js'
+
+const port = process.env.PORT || 3000;
+
+
+app.listen(port, () => {
+  console.log(`Servidor escutando em http://localhost:${port}`)
+})
+
+
+//npm install nodemon@2.0.15 - D
+//npm install express@4.17.3
+// npm install mongoose@6.2.6
